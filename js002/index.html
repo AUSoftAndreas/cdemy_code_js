@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Tutorial</title>
+    <script>
+        document.getElementById("ChangeThis").innerHTML = "Neuer Text";
+    </script>
+</head>
+
+<body>
+    <p>Das ist ein Beispieltext</p>
+    <p id="ChangeThis">Diesen Text werden wir ändern.</p>
+    <p>
+        Wie Ihr an der Fehlermeldung in der Console sehen könnt, bricht das Skript mit einer Fehlermeldung ab. Das Element mit der Id "ChangeThis" wird nicht gefunden. Woran liegt das?
+    </p>
+    <p>
+        Nun, Euer Rechner baut das Objekt bereits, auch wenn er den Code noch nicht vollständig verarbeitet hat. Das Javascript wird daher schon ausgeführt, bevor das Element mit der Id "ChangeThis" überhaupt konstruiert wurde.
+    </p>
+    <p>
+        Daher ist es recht üblich, sicherzustellen, dass das DOM-Objekt vollständig geladen ist, bevor man es manipuliert. Das wird im nächsten Code gemacht.
+    </p>
+</body>
+
+</html>

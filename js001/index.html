@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Tutorial</title>
+</head>
+
+<body>
+    <p>Das ist ein Beispieltext</p>
+    <p id="ChangeThis">Diesen Text werden wir ändern.</p>
+    <p>Die Seite wird sozusagen eine Millisekunde mit dem alten Text dargestellt, dann wird sie sofort umgeschrieben zu "Neuer Text".</p>
+    <p>Prinzipiell kann das script-Tag überall im Code stehen.</p>
+</body>
+
+<script>
+    document.getElementById("ChangeThis").innerHTML = "Neuer Text";
+</script>
+
+</html>
