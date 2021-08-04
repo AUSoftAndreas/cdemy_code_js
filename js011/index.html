@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Tutorial</title>
+    <script src="js.js"></script>
+    <style>
+        #summe {
+            font-size: 200%;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hier gehen nur Zahlen:</p>
+    <input type="text" id="wert11" onchange="calculate()">
+    <input type="text" id="wert12" onchange="calculate()">
+    <p id="ergebnis1">z</p>
+    <br/><br/>
+    <p>Hier gehen auch Buchstaben:</p>
+    <input type="text" id="wert21" onchange="calculate()">
+    <input type="text" id="wert22" onchange="calculate()">
+    <p id="ergebnis2">c</p>
+    <br/><br/>
+    <p>Dies ist ein Test:</p>
+    <p id="ergebnis3"></p>
+    <p>
+        Aber wenn Ihr Euch den Code mal anseht: Irgendwie ist das doch nicht das gewünschte Ergebnis in der zweiten Rechnung?
+    </p>
+</body>
+
+</html>
