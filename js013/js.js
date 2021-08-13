@@ -1,3 +1,5 @@
+"use strict"
+
 var players = [
     ["Neuer", "TW"],
     ["Upamecano", "V"],
